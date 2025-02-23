@@ -20,7 +20,7 @@ loader_thread.start()
 if __name__ == "__main__":
     print("\n🎙️ Please wait... Processing your audio data 🕛")
 
-    audio_path = "data.wav"  # Provide the path to your audio file
+    audio_path = "source/data.wav"  # Provide the path to your audio file
     separator = SpeakerSeparator(audio_path)
 
     separator.load_audio()
