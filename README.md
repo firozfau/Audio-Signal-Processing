@@ -40,13 +40,6 @@ Mathematical formulation:
 The FastICA update rule:
 \[ W_{new} = E[X g(WX)] - E[g'(WX)] W \]
 
-## Installation & Setup
-### Prerequisites
-- Python 3.x
-- Required Libraries: Install using:
-```bash
-pip install numpy scipy matplotlib pandas sklearn
-```
 
 ### Running the Project
 ```bash
